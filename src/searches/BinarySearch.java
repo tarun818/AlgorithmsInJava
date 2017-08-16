@@ -12,6 +12,7 @@ public class BinarySearch {
 	If the searched element is larger than the found element, then the sub-array is searched 
 	from the found element until the end of the array. Once the searched element is found
 	 or the collection is empty then the search is over.*/
+    //Therefore, the worst case runtime for this function is O(log n)O(logn)
 	public static void main(String[] args) 
 	{
 		Scanner inputScanner = new Scanner(System.in);
