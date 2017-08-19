@@ -33,7 +33,10 @@ public class BubbleSort
             unSortedArray[i] = inputScanner.nextInt();
         }
         inputScanner.close();
-        System.out.println("USorted Array :"+Arrays.toString(unSortedArray));
+        System.out.println("UnSorted Array :"+Arrays.toString(unSortedArray));
+        
+        //bubble sort logic 
+        
         for (int i = 0; i < size - 1; i++) 
         {
             swap=false;
