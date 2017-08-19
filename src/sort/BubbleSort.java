@@ -14,6 +14,8 @@ public class BubbleSort
      * decreases dramatically on lists of more than a small number of elements.
      * Even among simple O(n2) sorting algorithms, algorithms like insertion
      * sort are usually considerably more efficient.
+     * Worst and Average Case Time Complexity: O(n*n). Worst case occurs when array is reverse sorted.
+     * Auxiliary Space: O(1)
      */
     public static void main(String[] args) {
         Scanner inputScanner = new Scanner(System.in);
