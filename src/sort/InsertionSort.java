@@ -6,6 +6,10 @@ import java.util.Scanner;
 public class InsertionSort
 {
 
+    /*Time Complexity: O(n*n) Auxiliary Space: O(1)
+    Insertion sort takes maximum time to sort if elements are sorted in reverse order.
+    And it takes minimum time (Order of n) when elements are already sorted.
+	*/
 	public static void main(String[] args)
 	{
 		Scanner inputscanner = new Scanner(System.in);
